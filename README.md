@@ -1,46 +1,11 @@
-[?1049h[22;0;0t[22;0;0t[?1h=[H[2J]11;?[?2004h[?25h[?25l(B[m[H[2J[?1004h[?25h[?25l[?1002h[?1006h[38;5;252m[48;5;235m 1 # Terraform High Availability Task (B[m[38;5;235m[48;5;238m (B[m[38;5;248m[48;5;238m                                        
-(B[m[38;5;187m  (B[m[38;5;214m[48;5;237m  0 (B[m[38;5;187m[48;5;237m                                                                          
-(B[m[38;5;235m~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-(B[m[38;5;252m[48;5;240m<ter | # Terraform High Availability Task |   (B[m[38;5;240m[48;5;238m(B[m[38;5;248m[48;5;238m  (B[m[38;5;247m[48;5;240m unix | utf-8 | no ft (B[m[38;5;238m[48;5;244m   0:0  ]112[2 q]112[2 q[H(B[m[38;5;252m[48;5;235m 1 # Terraform High Availability Task (B[m[38;5;235m[48;5;238m (B[m[38;5;248m[48;5;238m[K
-(B[m[38;5;187m  (B[m[38;5;214m[48;5;237m  0 (B[m[38;5;187m[48;5;237m[K
-(B[m[38;5;235m~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-~[K
-(B[m[38;5;252m[48;5;240m<ter | # Terraform High Availability Task |   (B[m[38;5;240m[48;5;238m(B[m[38;5;248m[48;5;238m  (B[m[38;5;247m[48;5;240m unix | utf-8 | no ft (B[m[38;5;238m[48;5;244m   0:0[K(B[m[38;5;187m
-[J[2;7H[?25h[?25l[24;70H^@        [2;7H[?25h[?25l[24;70H  [2;7H[?25h# Terraform High Availability Task
+# Terraform High Availability Task
+
+## Task
+In this task, we have to create a highly available node application using IaC tools such as Terraform.
+
+## Acceptance Criteria
+- App fully working with Database
+
+
+## Solution
+

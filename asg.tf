@@ -3,6 +3,14 @@ resource "aws_launch_template" "alexis_lt" {
   name_prefix = "eng84_alexis_auto"
   image_id = "ami-042af9229265c27d0"
   instance_type = "t2.micro"
+  userdata = filebase("${path.module}/provision.sh")
+
+  tag_specifications {
+    resource_type = "instance"
+    tags = {
+      Name = "eng84_alexis_asg_test"
+
+  }
 }
 
 resource "aws_autoscaling_group" "alexis_asg" {
@@ -13,7 +21,6 @@ resource "aws_autoscaling_group" "alexis_asg" {
   desired_capacity = 2
   health_check_type = "ELB"
   force_delete = true
-  placement_group
   # launch_configuration
   vpc_zone_identifier = [
                             aws_subnet.alexis_subnetA,
