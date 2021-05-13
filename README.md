@@ -1,10 +1,21 @@
 # Terraform High Availability Task
 
 ## Task
-In this task, we have to create a highly available node application using IaC tools such as Terraform.
+In this task, we have to create a highly available web application using IaC tool Terraform.
 
 ## Acceptance Criteria
+- Terraform template to provision all resources
+- Auto-Scaling Group created with an Application Load Balancer
 - App fully working with Database
+
+
+## Documentation
+To have this project working on your own machine, you will need:
+- Terraform installation
+- AWS credentials (Root or IAM role)
+
+After installing Terraform, make sure the AWS credentials are available as environment variables.
+Then, at the main directory, run `terraform plan` and `terraform apply` to create the instances.
 
 
 ## Solution
