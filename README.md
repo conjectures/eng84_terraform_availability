@@ -9,6 +9,7 @@ In this task, we have to create a highly available node application using IaC to
 
 ## Solution
 In order to create a highly available application, an **Auto-Scaling-Group** will be used, with an **Application Load Balancer**.
+![High Availability App Architecture](terraform_availability_architecture.jpg)
 
 Before implementing in Terraform, the ASG was implemented through the console, so that all the required components are noted.
 Therefore, after completing the task with the AWS console, the following components were created:
@@ -17,3 +18,5 @@ Therefore, after completing the task with the AWS console, the following compone
 - Load Balancer Target Group
 - Load Balancer Listener
 - Auto Scaling Group
+
+
